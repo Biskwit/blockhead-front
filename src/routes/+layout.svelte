@@ -1,53 +1,229 @@
 <script>
 	import '../app.css';
+	import '../variables.css';
 </script>
 
-<slot />
+<div
+	class="content relative flex flex-wrap gap-10 h-screen w-full bg-black items-center justify-center p-8"
+>
+	<slot />
+	<svg
+		class="absolute top-30 left-20 z-0"
+		width="750"
+		height="553"
+		viewBox="0 0 750 553"
+		fill="none"
+		xmlns="http://www.w3.org/2000/svg"
+	>
+		<g filter="url(#filter0_d_1_98)">
+			<path
+				d="M378.708 247.931C378.28 247.78 378.014 247.425 378.115 247.14C378.216 246.854 378.645 246.745 379.073 246.896C379.502 247.048 379.768 247.402 379.667 247.688C379.566 247.973 379.137 248.082 378.708 247.931Z"
+				fill="white"
+			/>
+			<path
+				d="M738.967 225.84C738.681 225.739 738.531 225.426 738.632 225.14C738.733 224.854 739.046 224.704 739.332 224.805C739.618 224.906 739.768 225.219 739.667 225.505C739.566 225.791 739.252 225.941 738.967 225.84Z"
+				fill="white"
+			/>
+			<path
+				d="M85.7081 328.931C85.2796 328.78 85.0139 328.425 85.1148 328.14C85.2157 327.854 85.6448 327.745 86.0734 327.896C86.502 328.048 86.7676 328.402 86.6667 328.688C86.5659 328.973 86.1367 329.082 85.7081 328.931Z"
+				fill="white"
+			/>
+			<path
+				d="M476.225 337.748C476.083 337.698 476.049 337.426 476.149 337.14C476.25 336.854 476.448 336.663 476.591 336.714C476.734 336.764 476.768 337.037 476.667 337.322C476.566 337.608 476.368 337.799 476.225 337.748Z"
+				fill="white"
+			/>
+			<path
+				d="M16.1493 246.322C15.8635 246.221 15.6727 246.024 15.7231 245.881C15.7736 245.738 16.0461 245.704 16.3319 245.805C16.6176 245.906 16.8084 246.103 16.758 246.246C16.7076 246.389 16.435 246.423 16.1493 246.322Z"
+				fill="white"
+			/>
+			<path
+				d="M256.408 302.231C256.265 302.18 256.19 302.024 256.241 301.881C256.291 301.738 256.448 301.663 256.591 301.714C256.734 301.764 256.808 301.921 256.758 302.064C256.708 302.206 256.551 302.281 256.408 302.231Z"
+				fill="white"
+			/>
+			<path
+				d="M105.408 303.231C105.265 303.18 105.19 303.024 105.241 302.881C105.291 302.738 105.448 302.663 105.591 302.714C105.734 302.764 105.808 302.921 105.758 303.064C105.708 303.206 105.551 303.281 105.408 303.231Z"
+				fill="white"
+			/>
+			<path
+				d="M352.967 377.84C352.681 377.739 352.531 377.426 352.632 377.14C352.733 376.854 353.046 376.704 353.332 376.805C353.618 376.906 353.768 377.219 353.667 377.505C353.566 377.791 353.252 377.941 352.967 377.84Z"
+				fill="white"
+			/>
+			<path
+				d="M572.967 390.84C572.681 390.739 572.531 390.426 572.632 390.14C572.733 389.854 573.046 389.704 573.332 389.805C573.618 389.906 573.768 390.219 573.667 390.505C573.566 390.791 573.252 390.941 572.967 390.84Z"
+				fill="white"
+			/>
+			<path
+				d="M228.967 224.84C228.681 224.739 228.531 224.426 228.632 224.14C228.733 223.854 229.046 223.704 229.332 223.805C229.618 223.906 229.768 224.219 229.667 224.505C229.566 224.791 229.252 224.941 228.967 224.84Z"
+				fill="white"
+			/>
+			<path
+				d="M450.084 434.057C449.513 433.855 449.213 433.229 449.415 432.657C449.616 432.086 450.243 431.786 450.815 431.988C451.386 432.189 451.686 432.816 451.484 433.388C451.282 433.959 450.656 434.259 450.084 434.057Z"
+				fill="white"
+			/>
+			<path
+				d="M213.084 407.057C212.513 406.855 212.213 406.229 212.415 405.657C212.616 405.086 213.243 404.786 213.815 404.988C214.386 405.189 214.686 405.816 214.484 406.388C214.282 406.959 213.656 407.259 213.084 407.057Z"
+				fill="white"
+			/>
+			<path
+				d="M610.084 289.057C609.513 288.855 609.213 288.229 609.415 287.657C609.616 287.086 610.243 286.786 610.815 286.988C611.386 287.189 611.686 287.816 611.484 288.388C611.282 288.959 610.656 289.259 610.084 289.057Z"
+				fill="white"
+			/>
+		</g>
+		<defs>
+			<filter
+				id="filter0_d_1_98"
+				x="5.71503"
+				y="213.774"
+				width="743.983"
+				height="230.346"
+				filterUnits="userSpaceOnUse"
+				color-interpolation-filters="sRGB"
+			>
+				<feFlood flood-opacity="0" result="BackgroundImageFix" />
+				<feColorMatrix
+					in="SourceAlpha"
+					type="matrix"
+					values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+					result="hardAlpha"
+				/>
+				<feOffset />
+				<feGaussianBlur stdDeviation="5" />
+				<feComposite in2="hardAlpha" operator="out" />
+				<feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.5 0" />
+				<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_1_98" />
+				<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_1_98" result="shape" />
+			</filter>
+		</defs>
+	</svg>
+
+	<svg
+		class="absolute top-10 right-10 z-0"
+		width="750"
+		height="553"
+		viewBox="0 0 750 553"
+		fill="none"
+		xmlns="http://www.w3.org/2000/svg"
+	>
+		<g filter="url(#filter0_d_1_98)">
+			<path
+				d="M378.708 247.931C378.28 247.78 378.014 247.425 378.115 247.14C378.216 246.854 378.645 246.745 379.073 246.896C379.502 247.048 379.768 247.402 379.667 247.688C379.566 247.973 379.137 248.082 378.708 247.931Z"
+				fill="white"
+			/>
+			<path
+				d="M738.967 225.84C738.681 225.739 738.531 225.426 738.632 225.14C738.733 224.854 739.046 224.704 739.332 224.805C739.618 224.906 739.768 225.219 739.667 225.505C739.566 225.791 739.252 225.941 738.967 225.84Z"
+				fill="white"
+			/>
+			<path
+				d="M85.7081 328.931C85.2796 328.78 85.0139 328.425 85.1148 328.14C85.2157 327.854 85.6448 327.745 86.0734 327.896C86.502 328.048 86.7676 328.402 86.6667 328.688C86.5659 328.973 86.1367 329.082 85.7081 328.931Z"
+				fill="white"
+			/>
+			<path
+				d="M476.225 337.748C476.083 337.698 476.049 337.426 476.149 337.14C476.25 336.854 476.448 336.663 476.591 336.714C476.734 336.764 476.768 337.037 476.667 337.322C476.566 337.608 476.368 337.799 476.225 337.748Z"
+				fill="white"
+			/>
+			<path
+				d="M16.1493 246.322C15.8635 246.221 15.6727 246.024 15.7231 245.881C15.7736 245.738 16.0461 245.704 16.3319 245.805C16.6176 245.906 16.8084 246.103 16.758 246.246C16.7076 246.389 16.435 246.423 16.1493 246.322Z"
+				fill="white"
+			/>
+			<path
+				d="M256.408 302.231C256.265 302.18 256.19 302.024 256.241 301.881C256.291 301.738 256.448 301.663 256.591 301.714C256.734 301.764 256.808 301.921 256.758 302.064C256.708 302.206 256.551 302.281 256.408 302.231Z"
+				fill="white"
+			/>
+			<path
+				d="M105.408 303.231C105.265 303.18 105.19 303.024 105.241 302.881C105.291 302.738 105.448 302.663 105.591 302.714C105.734 302.764 105.808 302.921 105.758 303.064C105.708 303.206 105.551 303.281 105.408 303.231Z"
+				fill="white"
+			/>
+			<path
+				d="M352.967 377.84C352.681 377.739 352.531 377.426 352.632 377.14C352.733 376.854 353.046 376.704 353.332 376.805C353.618 376.906 353.768 377.219 353.667 377.505C353.566 377.791 353.252 377.941 352.967 377.84Z"
+				fill="white"
+			/>
+			<path
+				d="M572.967 390.84C572.681 390.739 572.531 390.426 572.632 390.14C572.733 389.854 573.046 389.704 573.332 389.805C573.618 389.906 573.768 390.219 573.667 390.505C573.566 390.791 573.252 390.941 572.967 390.84Z"
+				fill="white"
+			/>
+			<path
+				d="M228.967 224.84C228.681 224.739 228.531 224.426 228.632 224.14C228.733 223.854 229.046 223.704 229.332 223.805C229.618 223.906 229.768 224.219 229.667 224.505C229.566 224.791 229.252 224.941 228.967 224.84Z"
+				fill="white"
+			/>
+			<path
+				d="M450.084 434.057C449.513 433.855 449.213 433.229 449.415 432.657C449.616 432.086 450.243 431.786 450.815 431.988C451.386 432.189 451.686 432.816 451.484 433.388C451.282 433.959 450.656 434.259 450.084 434.057Z"
+				fill="white"
+			/>
+			<path
+				d="M213.084 407.057C212.513 406.855 212.213 406.229 212.415 405.657C212.616 405.086 213.243 404.786 213.815 404.988C214.386 405.189 214.686 405.816 214.484 406.388C214.282 406.959 213.656 407.259 213.084 407.057Z"
+				fill="white"
+			/>
+			<path
+				d="M610.084 289.057C609.513 288.855 609.213 288.229 609.415 287.657C609.616 287.086 610.243 286.786 610.815 286.988C611.386 287.189 611.686 287.816 611.484 288.388C611.282 288.959 610.656 289.259 610.084 289.057Z"
+				fill="white"
+			/>
+		</g>
+		<defs>
+			<filter
+				id="filter0_d_1_98"
+				x="5.71503"
+				y="213.774"
+				width="743.983"
+				height="230.346"
+				filterUnits="userSpaceOnUse"
+				color-interpolation-filters="sRGB"
+			>
+				<feFlood flood-opacity="0" result="BackgroundImageFix" />
+				<feColorMatrix
+					in="SourceAlpha"
+					type="matrix"
+					values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+					result="hardAlpha"
+				/>
+				<feOffset />
+				<feGaussianBlur stdDeviation="5" />
+				<feComposite in2="hardAlpha" operator="out" />
+				<feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.5 0" />
+				<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_1_98" />
+				<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_1_98" result="shape" />
+			</filter>
+		</defs>
+	</svg>
+</div>
 
 <style lang="postcss">
 	@font-face {
 		font-family: 'Montserrat';
 		font-weight: 400;
-		src: local('Montserrat-Regular'),
-			url('/fonts/Montserrat-Medium.ttf') format('truetype');
+		src: local('Montserrat-Regular'), url('/fonts/Montserrat-Medium.ttf') format('truetype');
 	}
 
 	@font-face {
 		font-family: 'Montserrat';
 		font-weight: 300;
-		src: local('Montserrat-Light'),
-			url('/fonts/Montserrat-Light.ttf') format('truetype');
+		src: local('Montserrat-Light'), url('/fonts/Montserrat-Light.ttf') format('truetype');
 	}
 
 	@font-face {
 		font-family: 'Montserrat';
 		font-weight: 200;
-		src: local('Montserrat-Thin'),
-			url('/fonts/Montserrat-Thin.ttf') format('truetype');
+		src: local('Montserrat-Thin'), url('/fonts/Montserrat-Thin.ttf') format('truetype');
 	}
 
 	@font-face {
 		font-family: 'Montserrat';
 		font-weight: 500;
-		src: local('Montserrat-Medium'),
-			url('/fonts/Montserrat-Medium.ttf') format('truetype');
+		src: local('Montserrat-Medium'), url('/fonts/Montserrat-Medium.ttf') format('truetype');
 	}
 
 	@font-face {
 		font-family: 'Montserrat';
 		font-weight: 600;
-		src: local('Montserrat-SemiBold'),
-			url('/fonts/Montserrat-SemiBold.ttf') format('truetype');
+		src: local('Montserrat-SemiBold'), url('/fonts/Montserrat-SemiBold.ttf') format('truetype');
 	}
 
 	@font-face {
 		font-family: 'Montserrat';
 		font-weight: 800;
-		src: local('Montserrat-Bold'),
-			url('/fonts/Montserrat-Bold.ttf') format('truetype');
+		src: local('Montserrat-Bold'), url('/fonts/Montserrat-Bold.ttf') format('truetype');
 	}
 	:global(body) {
-        font-family: 'Montserrat', sans-serif;
+		font-family: 'Montserrat', sans-serif;
 	}
 	:global(input:focus, select:focus, textarea:focus, button:focus) {
 		outline: none;
