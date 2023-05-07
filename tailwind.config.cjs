@@ -27,6 +27,10 @@ module.exports = {
         purple: {
           primary10: "#7200A8",
           primary20: "#8951CF",
+        },
+        red: {
+          primary10: "#BF002E",
+          primary20: "#CF516F",
         }
       },
       animation: {

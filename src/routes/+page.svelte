@@ -98,26 +98,48 @@
 			</p>
 		</div>
 	</div>
-    <!-- <div class="flex flex-col justify-center items-center gap-2 z-10">
+    <div class="flex flex-col justify-center items-center gap-2 z-10">
 		<Polygon from="purple-primary10" to="purple-primary20">
 			<img class="mt-4" src="protocols/ewf.svg" alt="ewf" />
 		</Polygon>
 		<div class="flex flex-col gap-1 text-white font-light text-sm text-center">
 			<p>
-				{(data.tezos.mainnet.blocks[0].height).toLocaleString().slice(0, -3)}<span class="font-semibold"
-					>{(data.tezos.mainnet.blocks[0].height).toString().slice(-3)}</span
+				{(data.ewf.mainnet.blocks[0].height).toLocaleString().slice(0, -3)}<span class="font-semibold"
+					>{(data.ewf.mainnet.blocks[0].height).toString().slice(-3)}</span
 				>
 			</p>
 			<p class="opacity-60 text-xs">
-				{(data.tezos.mainnet.blocks[1].height).toLocaleString().slice(0, -3)}<span class="font-semibold"
-					>{(data.tezos.mainnet.blocks[1].height).toString().slice(-3)}</span
+				{(data.ewf.mainnet.blocks[1].height).toLocaleString().slice(0, -3)}<span class="font-semibold"
+					>{(data.ewf.mainnet.blocks[1].height).toString().slice(-3)}</span
 				>
 			</p>
 			<p class="opacity-20 text-xs">
-				{(data.tezos.mainnet.blocks[2].height).toLocaleString().slice(0, -3)}<span class="font-semibold"
-					>{(data.tezos.mainnet.blocks[2].height).toString().slice(-3)}</span
+				{(data.ewf.mainnet.blocks[2].height).toLocaleString().slice(0, -3)}<span class="font-semibold"
+					>{(data.ewf.mainnet.blocks[2].height).toString().slice(-3)}</span
 				>
 			</p>
 		</div>
-	</div> -->
+	</div>
+	<div class="flex flex-col justify-center items-center gap-2 z-10">
+		<Polygon from="red-primary10" to="red-primary20">
+			<img class="-ml-[9px] mt-1" src="protocols/dot.svg" alt="polkadot" />
+		</Polygon>
+		<div class="flex flex-col gap-1 text-white font-light text-sm text-center">
+			<p>
+				{(data.polkadot.mainnet.blocks[0].height).toLocaleString().slice(0, -3)}<span class="font-semibold"
+					>{(data.polkadot.mainnet.blocks[0].height).toString().slice(-3)}</span
+				>
+			</p>
+			<p class="opacity-60 text-xs">
+				{(data.polkadot.mainnet.blocks[1].height).toLocaleString().slice(0, -3)}<span class="font-semibold"
+					>{(data.polkadot.mainnet.blocks[1].height).toString().slice(-3)}</span
+				>
+			</p>
+			<p class="opacity-20 text-xs">
+				{(data.polkadot.mainnet.blocks[2].height).toLocaleString().slice(0, -3)}<span class="font-semibold"
+					>{(data.polkadot.mainnet.blocks[2].height).toString().slice(-3)}</span
+				>
+			</p>
+		</div>
+	</div>
 {/if}
